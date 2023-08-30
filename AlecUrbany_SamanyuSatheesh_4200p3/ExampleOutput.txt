@@ -1,0 +1,334 @@
+SAMPLE PROGRAM OUTPUTS
+
+// EXAMPLE OUTPUT 1 = USER WINS //
+
+PS C:\Cal Poly Pomona\Summer 2023\Artificial Intelligence\Group Submission>  & 'C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin\java.exe' '-cp' 'C:\Users\ssath\AppData\Roaming\Code\User\workspaceStorage\9d3d06d6fc6d1ff9deb458ded870470f\redhat.java\jdt_ws\Group Submission_637534a7\bin' 'Driver' 
+Would you like to go first? (y/n): y
+How long should the computer think (in seconds)? 5 
+  1 2 3 4 5 6 7 8   Player vs. Computer
+A - - - - - - - -
+B - - - - - - - -
+C - - - - - - - -
+D - - - - - - - -
+E - - - - - - - -
+F - - - - - - - -
+G - - - - - - - -
+H - - - - - - - -
+
+Choose your move: e4
+
+  1 2 3 4 5 6 7 8   Player vs. Computer
+A - - - - - - - -     1. E4
+B - - - - - - - -
+C - - - - - - - -
+D - - - - - - - -
+E - - - O - - - -
+F - - - - - - - -
+G - - - - - - - -
+H - - - - - - - -
+
+Max time reached
+Optimal move found in: 5.001 Seconds
+
+  1 2 3 4 5 6 7 8   Player vs. Computer
+A - - - - - - - -     1. E4 D4
+B - - - - - - - -
+C - - - - - - - -
+D - - - X - - - -
+E - - - O - - - -
+F - - - - - - - -
+G - - - - - - - -
+H - - - - - - - -
+
+Choose your move: e5
+
+  1 2 3 4 5 6 7 8   Player vs. Computer
+A - - - - - - - -     1. E4 D4
+B - - - - - - - -     2. E5
+C - - - - - - - -
+D - - - X - - - -
+E - - - O O - - -
+F - - - - - - - -
+G - - - - - - - -
+H - - - - - - - -
+
+Max time reached
+Optimal move found in: 5.001 Seconds
+
+  1 2 3 4 5 6 7 8   Player vs. Computer
+A - - - - - - - -     1. E4 D4
+B - - - - - - - -     2. E5 E3
+C - - - - - - - -
+D - - - X - - - -
+E - - X O O - - -
+F - - - - - - - -
+G - - - - - - - -
+H - - - - - - - -
+
+Choose your move: d5
+
+  1 2 3 4 5 6 7 8   Player vs. Computer
+A - - - - - - - -     1. E4 D4
+B - - - - - - - -     2. E5 E3
+C - - - - - - - -     3. D5
+D - - - X O - - -
+E - - X O O - - -
+F - - - - - - - -
+G - - - - - - - -
+H - - - - - - - -
+
+Optimal move found in: 0.001 Seconds
+
+  1 2 3 4 5 6 7 8   Player vs. Computer
+A - - - - - - - -     1. E4 D4
+B - - - - - - - -     2. E5 E3
+C - - - - - X - -     3. D5 C6
+D - - - X O - - -
+E - - X O O - - -
+F - - - - - - - -
+G - - - - - - - -
+H - - - - - - - -
+
+Choose your move: c5
+
+  1 2 3 4 5 6 7 8   Player vs. Computer
+A - - - - - - - -     1. E4 D4
+B - - - - - - - -     2. E5 E3
+C - - - - O X - -     3. D5 C6
+D - - - X O - - -     4. C5
+E - - X O O - - -
+F - - - - - - - -
+G - - - - - - - -
+H - - - - - - - -
+
+Optimal move found in: 0.009 Seconds
+
+  1 2 3 4 5 6 7 8   Player vs. Computer
+A - - - - - - - -     1. E4 D4
+B - - - - X - - -     2. E5 E3
+C - - - - O X - -     3. D5 C6
+D - - - X O - - -     4. C5 B5
+E - - X O O - - -
+F - - - - - - - -
+G - - - - - - - -
+H - - - - - - - -
+
+Choose your move: f5
+
+  1 2 3 4 5 6 7 8   Player vs. Computer
+A - - - - - - - -     1. E4 D4
+B - - - - X - - -     2. E5 E3
+C - - - - O X - -     3. D5 C6
+D - - - X O - - -     4. C5 B5
+E - - X O O - - -     5. F5
+F - - - - O - - -
+G - - - - - - - -
+H - - - - - - - -
+
+Player wins!
+Game Over!
+
+// END EXAMPLE 1 OUTPUT //
+
+// EXAMPLE OUTPUT 2 = COMPUTER WINS //
+
+PS C:\Cal Poly Pomona\Summer 2023\Artificial Intelligence\Group Submission>  & 'C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin\java.exe' '-cp' 'C:\Users\ssath\AppData\Roaming\Code\User\workspaceStorage\9d3d06d6fc6d1ff9deb458ded870470f\redhat.java\jdt_ws\Group Submission_637534a7\bin' 'Driver' 
+Would you like to go first? (y/n): N
+How long should the computer think (in seconds)? 5
+  1 2 3 4 5 6 7 8   Computer vs. Player
+A - - - - - - - -
+B - - - - - - - -
+C - - - - - - - -
+D - - - - - - - -
+E - - - - - - - -
+F - - - - - - - -
+G - - - - - - - -
+H - - - - - - - -
+
+Max time reached
+Optimal move found in: 5.001 Seconds
+
+  1 2 3 4 5 6 7 8   Computer vs. Player
+A - - - - - - - -     1. D4
+B - - - - - - - -
+C - - - - - - - -
+D - - - X - - - -
+E - - - - - - - -
+F - - - - - - - -
+G - - - - - - - -
+H - - - - - - - -
+
+Choose your move: d5
+
+  1 2 3 4 5 6 7 8   Computer vs. Player
+A - - - - - - - -     1. D4 D5
+B - - - - - - - -
+C - - - - - - - -
+D - - - X O - - -
+E - - - - - - - -
+F - - - - - - - -
+G - - - - - - - -
+H - - - - - - - -
+
+Max time reached
+Optimal move found in: 5.001 Seconds
+
+  1 2 3 4 5 6 7 8   Computer vs. Player
+A - - - - - - - -     1. D4 D5
+B - - - - - - - -     2. E5
+C - - - - - - - -
+D - - - X O - - -
+E - - - - X - - -
+F - - - - - - - -
+G - - - - - - - -
+H - - - - - - - -
+
+Choose your move: d3
+
+  1 2 3 4 5 6 7 8   Computer vs. Player
+A - - - - - - - -     1. D4 D5
+B - - - - - - - -     2. E5 D3
+C - - - - - - - -
+D - - O X O - - -
+E - - - - X - - -
+F - - - - - - - -
+G - - - - - - - -
+H - - - - - - - -
+
+Optimal move found in: 0.001 Seconds
+
+  1 2 3 4 5 6 7 8   Computer vs. Player
+A - - - - - - - -     1. D4 D5
+B - - - - - - - -     2. E5 D3
+C - - X - - - - -     3. C3
+D - - O X O - - -
+E - - - - X - - -
+F - - - - - - - -
+G - - - - - - - -
+H - - - - - - - -
+
+Choose your move: c4
+
+  1 2 3 4 5 6 7 8   Computer vs. Player
+A - - - - - - - -     1. D4 D5
+B - - - - - - - -     2. E5 D3
+C - - X O - - - -     3. C3 C4
+D - - O X O - - -
+E - - - - X - - -
+F - - - - - - - -
+G - - - - - - - -
+H - - - - - - - -
+
+Max time reached
+Optimal move found in: 5.001 Seconds
+
+  1 2 3 4 5 6 7 8   Computer vs. Player
+A - - - - X - - -     1. D4 D5
+B - - - - - - - -     2. E5 D3
+C - - X O - - - -     3. C3 C4
+D - - O X O - - -     4. A5
+E - - - - X - - -
+F - - - - - - - -
+G - - - - - - - -
+H - - - - - - - -
+
+Choose your move: d6
+
+  1 2 3 4 5 6 7 8   Computer vs. Player
+A - - - - X - - -     1. D4 D5
+B - - - - - - - -     2. E5 D3
+C - - X O - - - -     3. C3 C4
+D - - O X O O - -     4. A5 D6
+E - - - - X - - -
+F - - - - - - - -
+G - - - - - - - -
+H - - - - - - - -
+
+Optimal move found in: 2.245 Seconds
+
+  1 2 3 4 5 6 7 8   Computer vs. Player
+A - - - - X - X -     1. D4 D5
+B - - - - - - - -     2. E5 D3
+C - - X O - - - -     3. C3 C4
+D - - O X O O - -     4. A5 D6
+E - - - - X - - -     5. A7
+F - - - - - - - -
+G - - - - - - - -
+H - - - - - - - -
+
+Choose your move: d7
+
+  1 2 3 4 5 6 7 8   Computer vs. Player
+A - - - - X - X -     1. D4 D5
+B - - - - - - - -     2. E5 D3
+C - - X O - - - -     3. C3 C4
+D - - O X O O O -     4. A5 D6
+E - - - - X - - -     5. A7 D7
+F - - - - - - - -
+G - - - - - - - -
+H - - - - - - - -
+
+Optimal move found in: 0.010 Seconds
+
+  1 2 3 4 5 6 7 8   Computer vs. Player
+A - - - - X - X -     1. D4 D5
+B - - - - - - - -     2. E5 D3
+C - - X O - - - -     3. C3 C4
+D - - O X O O O X     4. A5 D6
+E - - - - X - - -     5. A7 D7
+F - - - - - - - -     6. D8
+G - - - - - - - -
+H - - - - - - - -
+
+Choose your move: e6
+
+  1 2 3 4 5 6 7 8   Computer vs. Player
+A - - - - X - X -     1. D4 D5
+B - - - - - - - -     2. E5 D3
+C - - X O - - - -     3. C3 C4
+D - - O X O O O X     4. A5 D6
+E - - - - X O - -     5. A7 D7
+F - - - - - - - -     6. D8 E6
+G - - - - - - - -
+H - - - - - - - -
+
+Optimal move found in: 0.038 Seconds
+
+  1 2 3 4 5 6 7 8   Computer vs. Player
+A - - - - X X X -     1. D4 D5
+B - - - - - - - -     2. E5 D3
+C - - X O - - - -     3. C3 C4
+D - - O X O O O X     4. A5 D6
+E - - - - X O - -     5. A7 D7
+F - - - - - - - -     6. D8 E6
+G - - - - - - - -     7. A6
+H - - - - - - - -
+
+Choose your move: a8
+
+  1 2 3 4 5 6 7 8   Computer vs. Player
+A - - - - X X X O     1. D4 D5
+B - - - - - - - -     2. E5 D3
+C - - X O - - - -     3. C3 C4
+D - - O X O O O X     4. A5 D6
+E - - - - X O - -     5. A7 D7
+F - - - - - - - -     6. D8 E6
+G - - - - - - - -     7. A6 A8
+H - - - - - - - -
+
+Optimal move found in: 0.001 Seconds
+
+  1 2 3 4 5 6 7 8   Computer vs. Player
+A - - - X X X X O     1. D4 D5
+B - - - - - - - -     2. E5 D3
+C - - X O - - - -     3. C3 C4
+D - - O X O O O X     4. A5 D6
+E - - - - X O - -     5. A7 D7
+F - - - - - - - -     6. D8 E6
+G - - - - - - - -     7. A6 A8
+H - - - - - - - -     8. A4
+
+Computer wins!
+Game Over!
+
+// END EXAMPLE 2 OUTPUT //
